@@ -1,0 +1,55 @@
+//
+// home-nav
+// --------------------------------------------------
+
+
+ol, ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+#navigation {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+	border-radius: @borderRadiusSmall;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 #FFFFFF;
+	display: inline-block;
+	padding: 6px 6px 11px;
+	position: relative;
+	vertical-align: top;
+	top: 35px;
+	z-index: 9999;
+}
+#navigation ul {
+	border-radius: @borderRadiusSmall;
+	box-shadow: 0 5px 0 #C6412B;
+	margin: 0;
+	padding: 0;
+}
+#navigation ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+#navigation ul li a {
+	background: @origin repeat scroll 0 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	border-right: 1px solid #D44A34;
+	color: @white;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 1.2em 1.6em 1em;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	transition: all 0.1s ease 0s;
+	font-family: "Open Sans","Helvetica","Arial";
+	text-decoration: none;
+	&:hover {
+		box-shadow: -1px 0 0 #c6412b inset;
+		position: relative;
+		text-decoration: none;
+		top: 2px;
+	}
+}

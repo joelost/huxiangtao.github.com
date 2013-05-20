@@ -1,0 +1,20 @@
+<div class="span7 offset1">
+  <div class="row">
+    <div class="span1">
+      <h2>{{ post.date | date: "%d" }}</h2>
+      <span>{{ post.date | date: "%B" }}</span>
+    </div>
+    <div class="span6">
+      <div class="meta-title">
+        <h2><a href="{{ post.id }}">{{ post.title }}</a></h2>
+      </div>
+      <div class="post-content">
+        <p>{{ post.content | strip_html | truncatewords: 100 }}</p>
+      </div>
+      <div class="meta-date">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
+      </div>
+    </div>
+  </div>
+      
+</div>
