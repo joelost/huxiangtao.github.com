@@ -7,6 +7,7 @@ tags : [intro, beginner, jekyll, tutorial]
 {% include JB/setup %}
 
 ![mahua](/images/post-image/jekyll-introduction.jpg)
+
 最终传入事件处理程序的 event 其实已经被 jQuery 做过标准化处理，
 
 其原有的事件对象则被保存于 event 对象的 originalEvent 属性之中，
