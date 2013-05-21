@@ -1,3 +1,10 @@
+---
+layout: post
+category : lessons
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
+---
+{% include JB/setup %}
 ##项目管理大纲
 
 ####选择
