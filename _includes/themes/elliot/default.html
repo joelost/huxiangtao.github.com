@@ -29,8 +29,28 @@
 		</div>	
 	</header>
 	<div class="row">
-		<div class="span8 offset2">
+		<div class="span8 offset2" style="width:685px;">
 			{{ content }}
+		</div>
+		<div class="span4">
+			<form class="form-search">
+			  <input type="text" class="input-medium search-query">
+			  <button type="submit" class="btn">Search</button>
+			</form>
+			<ul>
+				<li>
+					<h4>Categories</h4>
+				</li>
+				{% assign categories_list = site.categories %}  
+  	  			{% include JB/categories_list %}
+			</ul>
+			<ul>
+				<li>
+					<h4>Archives</h4>
+				</li>
+				{% assign posts_collate = site.posts %}
+				{% include JB/posts_collate %}
+			</ul>
 		</div>
 	</div>
 	<footer id="footer">
