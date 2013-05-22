@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<div class="pagetitle row">
-			<div class="span2">
+			<div class="span2 offset1">
 				<h2>{{ page.title }}</h2>
 			</div>
 			<div class="span6 offset4">
@@ -25,21 +25,17 @@
 		</div>	
 	</header>
 	<div class="row">
-		<div class="pagination pagination-small span5 offset6">
-		  <ul>
-		    <li class="disabled"><a href="#">&laquo;</a></li>
-		    <li class="active"><a href="#">1</a></li>
-		    <li class="active"><a href="#">1</a></li>
-		    <li class="active"><a href="#">1</a></li>
-		    <li class="active"><a href="#">1</a></li>
-		    <li class="disabled"><a href="#">></a></li>
-		  </ul>
-		</div>
-	</div>
-	<div class="row">
 		<div class="span7 offset2">
 			{{ content }}
 		</div>
 	</div>
+	<footer id="footer">
+      <p>Copyright reserved to elliot</p>
+      <p>
+          Powered by <a href="" target="_blank" rel="nofollow">Jekyll</a>. 
+          Designed by <a href="{{ site.url }}" rel="nofollow">HuXiangtao</a>. 
+          <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow"></a>
+      </p>
+   </footer>
 </body>
 </html>
