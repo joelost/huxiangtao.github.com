@@ -8,7 +8,11 @@
       <h2><a href="{{ post.id }}">{{ post.title }}</a></h2>
     </div>
     <div class="post-content">
-      <a href="{{ post.id }}"><img src="/images/blog-images/{{ post.img }}.jpg" alt=""></a>
+      <a href="{{ post.id }}">
+        {% if post.img %}
+        <img src="/images/blog-images/{{ post.img }}.jpg" alt="">
+        {% endif %}
+      </a>
       <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
     </div>
     <div class="meta-date">
