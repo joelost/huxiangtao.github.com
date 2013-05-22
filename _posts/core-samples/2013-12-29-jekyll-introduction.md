@@ -5,6 +5,7 @@ tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 title : 世界和平
 img : yang
+articleType : blog
 ---
 {% include JB/setup %}
 
