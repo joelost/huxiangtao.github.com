@@ -2,7 +2,7 @@
 layout: post
 category : PMP
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags : [intro, jekyll, tutorial]
 title : 项目管理
 articleType : blog
 ---

@@ -1,9 +1,17 @@
 <div class="row">
   <div class="span1">
-    <h2>{{ post.date | date: "%d" }}</h2>
-    <span>{{ post.date | date: "%B" }}</span>
+    <div class="data-header">
+      <h2>{{ post.date | date: "%d" }}</h2>
+      <span>{{ post.date | date: "%B" }}</span>
+    </div>
+    <ul style="width:80px;padding-left:17px;">
+      <li style="margin-left:-17px;"><i class="icon-tags"></i>Tags:</li>
+      {% assign tags_list = post.tags %}  
+      {% include JB/tags_list %}
+    </ul>
   </div>
-  <div class="span6">
+  
+  <div class="span6" style="margin-left:45px;">
     <div class="meta-title">
       <h2><a href="{{ post.id }}">{{ post.title }}</a></h2>
     </div>
