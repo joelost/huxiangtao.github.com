@@ -12,7 +12,11 @@
 	<header>
 		<div class="pagetitle row">
 			<div class="span2 offset1">
+				{% if page.articleType == 'blog' %}
+				<h2>Blog</h2>
+				{% else %}
 				<h2>{{ page.title }}</h2>
+				{% endif %}
 			</div>
 			<div class="span6 offset4">
 				<ul class="nav nav-pills">
