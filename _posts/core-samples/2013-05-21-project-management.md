@@ -1,8 +1,10 @@
 ---
 layout: post
-category : lessons
+category : PMP
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
+title : 项目管理
+articleType : blog
 ---
 {% include JB/setup %}
 
