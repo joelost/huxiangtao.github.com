@@ -10,21 +10,23 @@
 </head>
 <body>
 	<header>
-		<div class="pagetitle row">
-			<div class="span2 offset1">
-				{% if page.articleType == 'blog' %}
-				<h3>Blog</h3>
-				{% else %}
-				<h3>{{ page.title }}</h3>
-				{% endif %}
-			</div>
-			<div class="span7 offset3">
-				<div class="navbar">
-					<ul class="nav">
-					{% assign pages_list = site.pages %}
-			      {% assign group = 'navigation' %}
-			      {% include JB/pages_list %}
-				</ul>
+		<div class="pagetitle container">
+			<div class="row">
+				<div class="span2">
+					{% if page.articleType == 'blog' %}
+					<h3>Blog</h3>
+					{% else %}
+					<h3>{{ page.title }}</h3>
+					{% endif %}
+				</div>
+				<div class="span7 offset3">
+					<div class="navbar">
+						<ul class="nav">
+							{% assign pages_list = site.pages %}
+					      {% assign group = 'navigation' %}
+					      {% include JB/pages_list %}
+						</ul>
+					</div>
 				</div>
 			</div>
 			<span class="border-triangle"></span>

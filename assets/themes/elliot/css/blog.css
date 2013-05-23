@@ -6294,52 +6294,49 @@ ul li {
   top: 2px;
 }
 /* line 1, default-nav.less */
+header {
+  background-color: #e9573f;
+}
+/* line 4, default-nav.less */
 .pagetitle {
   position: relative;
-  background-color: #e9573f;
   height: 50px;
-  padding: 0 30px 0 60px;
   margin-bottom: 70px;
 }
-/* line 7, default-nav.less */
+/* line 8, default-nav.less */
 .pagetitle h3 {
   color: #ffffff;
   margin: 0;
   padding: 3px 0;
   float: left;
-  margin-left: 31px;
 }
-/* line 14, default-nav.less */
-.pagetitle .navbar {
-  padding-left: 52px;
-}
-/* line 18, default-nav.less */
+/* line 15, default-nav.less */
 .pagetitle .navbar .nav {
   margin: 5px 0 0 0;
 }
-/* line 21, default-nav.less */
+/* line 18, default-nav.less */
 .pagetitle .navbar .nav > li > a {
   color: #ae2a14;
   text-shadow: none;
 }
-/* line 24, default-nav.less */
+/* line 21, default-nav.less */
 .pagetitle .navbar .nav > li > a:hover {
   color: #ffffff;
 }
-/* line 28, default-nav.less */
+/* line 25, default-nav.less */
 .pagetitle .navbar .nav > .active > a {
   color: #ffffff;
   background: none;
   box-shadow: none;
 }
-/* line 33, default-nav.less */
+/* line 30, default-nav.less */
 .border-triangle {
   position: absolute;
   border-color: #e9573f #ffffff #ffffff #ffffff;
   border-style: solid;
   border-width: 10px 9px 0 9px;
   display: inline-block;
-  left: 232px;
+  left: 0;
   top: 50px;
 }
 /* line 1, post-item.less */
