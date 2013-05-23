@@ -13,17 +13,19 @@
 		<div class="pagetitle row">
 			<div class="span2 offset1">
 				{% if page.articleType == 'blog' %}
-				<h2>Blog</h2>
+				<h3>Blog</h3>
 				{% else %}
-				<h2>{{ page.title }}</h2>
+				<h3>{{ page.title }}</h3>
 				{% endif %}
 			</div>
 			<div class="span6 offset4">
-				<ul class="nav nav-pills">
+				<div class="navbar">
+					<ul class="nav">
 					{% assign pages_list = site.pages %}
 			      {% assign group = 'navigation' %}
 			      {% include JB/pages_list %}
 				</ul>
+				</div>
 			</div>
 			<span class="border-triangle"></span>
 		</div>	

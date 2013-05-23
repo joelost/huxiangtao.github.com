@@ -6297,30 +6297,50 @@ ul li {
 .pagetitle {
   position: relative;
   background-color: #e9573f;
-  height: 80px;
+  height: 50px;
   padding: 0 30px 0 60px;
   margin-bottom: 70px;
 }
 /* line 7, default-nav.less */
-.pagetitle h2 {
+.pagetitle h3 {
   color: #ffffff;
   margin: 0;
-  padding: 20px 0;
+  padding: 3px 0;
   float: left;
+  margin-left: 39px;
 }
-/* line 13, default-nav.less */
+/* line 14, default-nav.less */
 .pagetitle ul {
-  margin: 25px;
+  margin: 10px 0 0 0;
 }
-/* line 17, default-nav.less */
+/* line 18, default-nav.less */
+.pagetitle .navbar .nav {
+  margin-top: 5px;
+}
+/* line 21, default-nav.less */
+.pagetitle .navbar .nav > li > a {
+  color: #c52f17;
+  text-shadow: none;
+}
+/* line 24, default-nav.less */
+.pagetitle .navbar .nav > li > a:hover {
+  color: #ffffff;
+}
+/* line 28, default-nav.less */
+.pagetitle .navbar .nav > .active > a {
+  color: #ffffff;
+  background: none;
+  box-shadow: none;
+}
+/* line 33, default-nav.less */
 .border-triangle {
   position: absolute;
   border-color: #e9573f #ffffff #ffffff #ffffff;
   border-style: solid;
   border-width: 10px 9px 0 9px;
   display: inline-block;
-  left: 240px;
-  top: 80px;
+  left: 232px;
+  top: 50px;
 }
 /* line 1, post-item.less */
 .data-header {
