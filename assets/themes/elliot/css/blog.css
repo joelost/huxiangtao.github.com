@@ -6310,12 +6310,12 @@ ul li {
   margin-left: 39px;
 }
 /* line 14, default-nav.less */
-.pagetitle ul {
-  margin: 10px 0 0 0;
+.pagetitle .navbar {
+  padding-left: 36px;
 }
 /* line 18, default-nav.less */
 .pagetitle .navbar .nav {
-  margin-top: 5px;
+  margin: 5px 0 0 0;
 }
 /* line 21, default-nav.less */
 .pagetitle .navbar .nav > li > a {
