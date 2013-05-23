@@ -6384,6 +6384,14 @@ ul li {
   margin-bottom: 25px;
 }
 /* line 33, post-item.less */
+.meta-title > span {
+  color: #999999;
+}
+/* line 36, post-item.less */
+.meta-title > h2 > a {
+  color: #000000;
+}
+/* line 39, post-item.less */
 .post-content > a > img,
 .post-content > p {
   margin-bottom: 20px;
