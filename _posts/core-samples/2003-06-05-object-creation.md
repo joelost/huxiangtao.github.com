@@ -372,3 +372,4 @@ Container.prototype.stamp = function(string) {
 
 myContainer.stamp('def')
 ```
+[栅格计算](http://leegorous.net/tools/grids.html)
