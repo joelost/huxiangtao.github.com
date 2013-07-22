@@ -8,3 +8,7 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+*.iml
+*.ipr
+*.iws
+.idea/
