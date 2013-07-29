@@ -1,0 +1,16 @@
+---
+layout: default
+title : Blog
+header : Post Archive
+group: navigation
+weight: 99
+---
+
+
+{% for post in site.posts %}
+
+  {% include JB/post_item.html %}
+
+{% endfor %}
+
+{% include JB/pagination.html %}
