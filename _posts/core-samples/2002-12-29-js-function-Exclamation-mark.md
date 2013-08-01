@@ -4,6 +4,8 @@ category : JavaScript
 tagline: "javaScript中感叹号与function"
 tags : [function, 感叹号, javascript]
 title : function 与感叹号
+articleType : blog
+
 ---
 {% include JB/setup %}
 
